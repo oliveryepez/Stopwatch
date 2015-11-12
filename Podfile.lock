@@ -1,0 +1,10 @@
+PODS:
+  - DCCoreDataManager (1.0.0)
+
+DEPENDENCIES:
+  - DCCoreDataManager
+
+SPEC CHECKSUMS:
+  DCCoreDataManager: 99ce993dfb289fe7a1179eb3e4dd36f8f6771328
+
+COCOAPODS: 0.39.0

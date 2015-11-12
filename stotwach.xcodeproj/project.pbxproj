@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73BEC991BF412A6003343FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73BEC981BF412A6003343FD /* CoreData.framework */; };
+		A7F7862E1BE6E62E0039D42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7862D1BE6E62E0039D42C /* main.m */; };
+		A7F786311BE6E62E0039D42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F786301BE6E62E0039D42C /* AppDelegate.m */; };
+		A7F786341BE6E62E0039D42C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F786331BE6E62E0039D42C /* ViewController.m */; };
+		A7F786371BE6E62E0039D42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F786351BE6E62E0039D42C /* Main.storyboard */; };
+		A7F786391BE6E62E0039D42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F786381BE6E62E0039D42C /* Assets.xcassets */; };
+		A7F7863C1BE6E62E0039D42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F7863A1BE6E62E0039D42C /* LaunchScreen.storyboard */; };
+		A7F786471BE6E62E0039D42C /* stotwachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F786461BE6E62E0039D42C /* stotwachTests.m */; };
+		A7F786521BE6E62F0039D42C /* stotwachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F786511BE6E62F0039D42C /* stotwachUITests.m */; };
+		A7F786641BE6EF2E0039D42C /* PaneuropaNeueNormal.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7F786631BE6EF2E0039D42C /* PaneuropaNeueNormal.otf */; };
+		BA3CB90B3143ED496A120C2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333B20C6A4ABEC5A87655C3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F786431BE6E62E0039D42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F786211BE6E62E0039D42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F786281BE6E62E0039D42C;
+			remoteInfo = stotwach;
+		};
+		A7F7864E1BE6E62F0039D42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F786211BE6E62E0039D42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F786281BE6E62E0039D42C;
+			remoteInfo = stotwach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0501908ADE1FE4380D9CDA0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7333B20C6A4ABEC5A87655C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73BEC981BF412A6003343FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7F786291BE6E62E0039D42C /* stotwach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stotwach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F7862D1BE6E62E0039D42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F7862F1BE6E62E0039D42C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F786301BE6E62E0039D42C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F786321BE6E62E0039D42C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7F786331BE6E62E0039D42C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7F786361BE6E62E0039D42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F786381BE6E62E0039D42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F7863B1BE6E62E0039D42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7F7863D1BE6E62E0039D42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F786421BE6E62E0039D42C /* stotwachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stotwachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F786461BE6E62E0039D42C /* stotwachTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stotwachTests.m; sourceTree = "<group>"; };
+		A7F786481BE6E62E0039D42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F7864D1BE6E62F0039D42C /* stotwachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stotwachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F786511BE6E62F0039D42C /* stotwachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stotwachUITests.m; sourceTree = "<group>"; };
+		A7F786531BE6E62F0039D42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F786631BE6EF2E0039D42C /* PaneuropaNeueNormal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PaneuropaNeueNormal.otf; path = ../../../Downloads/paneropa_neue_illcatdzn/PaneuropaNeueNormal.otf; sourceTree = "<group>"; };
+		BF227A81D19E1A80B3333A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F786261BE6E62E0039D42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73BEC991BF412A6003343FD /* CoreData.framework in Frameworks */,
+				BA3CB90B3143ED496A120C2A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F7863F1BE6E62E0039D42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F7864A1BE6E62E0039D42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83AB726D43F56EE636BFCC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7333B20C6A4ABEC5A87655C3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F786201BE6E62E0039D42C = {
+			isa = PBXGroup;
+			children = (
+				A73BEC981BF412A6003343FD /* CoreData.framework */,
+				A7F7862B1BE6E62E0039D42C /* stotwach */,
+				A7F786451BE6E62E0039D42C /* stotwachTests */,
+				A7F786501BE6E62F0039D42C /* stotwachUITests */,
+				A7F7862A1BE6E62E0039D42C /* Products */,
+				DE7339A9F7664F20D928B9F3 /* Pods */,
+				83AB726D43F56EE636BFCC11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F7862A1BE6E62E0039D42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F786291BE6E62E0039D42C /* stotwach.app */,
+				A7F786421BE6E62E0039D42C /* stotwachTests.xctest */,
+				A7F7864D1BE6E62F0039D42C /* stotwachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F7862B1BE6E62E0039D42C /* stotwach */ = {
+			isa = PBXGroup;
+			children = (
+				A7F786631BE6EF2E0039D42C /* PaneuropaNeueNormal.otf */,
+				A7F7862F1BE6E62E0039D42C /* AppDelegate.h */,
+				A7F786301BE6E62E0039D42C /* AppDelegate.m */,
+				A7F786321BE6E62E0039D42C /* ViewController.h */,
+				A7F786331BE6E62E0039D42C /* ViewController.m */,
+				A7F786351BE6E62E0039D42C /* Main.storyboard */,
+				A7F786381BE6E62E0039D42C /* Assets.xcassets */,
+				A7F7863A1BE6E62E0039D42C /* LaunchScreen.storyboard */,
+				A7F7863D1BE6E62E0039D42C /* Info.plist */,
+				A7F7862C1BE6E62E0039D42C /* Supporting Files */,
+			);
+			path = stotwach;
+			sourceTree = "<group>";
+		};
+		A7F7862C1BE6E62E0039D42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F7862D1BE6E62E0039D42C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F786451BE6E62E0039D42C /* stotwachTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F786461BE6E62E0039D42C /* stotwachTests.m */,
+				A7F786481BE6E62E0039D42C /* Info.plist */,
+			);
+			path = stotwachTests;
+			sourceTree = "<group>";
+		};
+		A7F786501BE6E62F0039D42C /* stotwachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F786511BE6E62F0039D42C /* stotwachUITests.m */,
+				A7F786531BE6E62F0039D42C /* Info.plist */,
+			);
+			path = stotwachUITests;
+			sourceTree = "<group>";
+		};
+		DE7339A9F7664F20D928B9F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF227A81D19E1A80B3333A40 /* Pods.debug.xcconfig */,
+				0501908ADE1FE4380D9CDA0B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F786281BE6E62E0039D42C /* stotwach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F786561BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwach" */;
+			buildPhases = (
+				C1E435934DBDE4C0F33B270D /* Check Pods Manifest.lock */,
+				A7F786251BE6E62E0039D42C /* Sources */,
+				A7F786261BE6E62E0039D42C /* Frameworks */,
+				A7F786271BE6E62E0039D42C /* Resources */,
+				5281CBDD4E6C6C5237AD1135 /* Embed Pods Frameworks */,
+				46FA86CFF76C30128B0C90A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stotwach;
+			productName = stotwach;
+			productReference = A7F786291BE6E62E0039D42C /* stotwach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F786411BE6E62E0039D42C /* stotwachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F786591BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwachTests" */;
+			buildPhases = (
+				A7F7863E1BE6E62E0039D42C /* Sources */,
+				A7F7863F1BE6E62E0039D42C /* Frameworks */,
+				A7F786401BE6E62E0039D42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F786441BE6E62E0039D42C /* PBXTargetDependency */,
+			);
+			name = stotwachTests;
+			productName = stotwachTests;
+			productReference = A7F786421BE6E62E0039D42C /* stotwachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F7864C1BE6E62E0039D42C /* stotwachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F7865C1BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwachUITests" */;
+			buildPhases = (
+				A7F786491BE6E62E0039D42C /* Sources */,
+				A7F7864A1BE6E62E0039D42C /* Frameworks */,
+				A7F7864B1BE6E62E0039D42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F7864F1BE6E62F0039D42C /* PBXTargetDependency */,
+			);
+			name = stotwachUITests;
+			productName = stotwachUITests;
+			productReference = A7F7864D1BE6E62F0039D42C /* stotwachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F786211BE6E62E0039D42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Oliver Yepez";
+				TargetAttributes = {
+					A7F786281BE6E62E0039D42C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A7F786411BE6E62E0039D42C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7F786281BE6E62E0039D42C;
+					};
+					A7F7864C1BE6E62E0039D42C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7F786281BE6E62E0039D42C;
+					};
+				};
+			};
+			buildConfigurationList = A7F786241BE6E62E0039D42C /* Build configuration list for PBXProject "stotwach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F786201BE6E62E0039D42C;
+			productRefGroup = A7F7862A1BE6E62E0039D42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F786281BE6E62E0039D42C /* stotwach */,
+				A7F786411BE6E62E0039D42C /* stotwachTests */,
+				A7F7864C1BE6E62E0039D42C /* stotwachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F786271BE6E62E0039D42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F7863C1BE6E62E0039D42C /* LaunchScreen.storyboard in Resources */,
+				A7F786391BE6E62E0039D42C /* Assets.xcassets in Resources */,
+				A7F786371BE6E62E0039D42C /* Main.storyboard in Resources */,
+				A7F786641BE6EF2E0039D42C /* PaneuropaNeueNormal.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F786401BE6E62E0039D42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F7864B1BE6E62E0039D42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46FA86CFF76C30128B0C90A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5281CBDD4E6C6C5237AD1135 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E435934DBDE4C0F33B270D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F786251BE6E62E0039D42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F786341BE6E62E0039D42C /* ViewController.m in Sources */,
+				A7F786311BE6E62E0039D42C /* AppDelegate.m in Sources */,
+				A7F7862E1BE6E62E0039D42C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F7863E1BE6E62E0039D42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F786471BE6E62E0039D42C /* stotwachTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F786491BE6E62E0039D42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F786521BE6E62F0039D42C /* stotwachUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F786441BE6E62E0039D42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F786281BE6E62E0039D42C /* stotwach */;
+			targetProxy = A7F786431BE6E62E0039D42C /* PBXContainerItemProxy */;
+		};
+		A7F7864F1BE6E62F0039D42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F786281BE6E62E0039D42C /* stotwach */;
+			targetProxy = A7F7864E1BE6E62F0039D42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F786351BE6E62E0039D42C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F786361BE6E62E0039D42C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F7863A1BE6E62E0039D42C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F7863B1BE6E62E0039D42C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F786541BE6E62F0039D42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F786551BE6E62F0039D42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F786571BE6E62F0039D42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF227A81D19E1A80B3333A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stotwach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7F786581BE6E62F0039D42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0501908ADE1FE4380D9CDA0B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stotwach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7F7865A1BE6E62F0039D42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stotwachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stotwach.app/stotwach";
+			};
+			name = Debug;
+		};
+		A7F7865B1BE6E62F0039D42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stotwachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stotwach.app/stotwach";
+			};
+			name = Release;
+		};
+		A7F7865D1BE6E62F0039D42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stotwachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stotwach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7F7865E1BE6E62F0039D42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stotwachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliver.stotwachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stotwach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F786241BE6E62E0039D42C /* Build configuration list for PBXProject "stotwach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F786541BE6E62F0039D42C /* Debug */,
+				A7F786551BE6E62F0039D42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F786561BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F786571BE6E62F0039D42C /* Debug */,
+				A7F786581BE6E62F0039D42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F786591BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F7865A1BE6E62F0039D42C /* Debug */,
+				A7F7865B1BE6E62F0039D42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F7865C1BE6E62F0039D42C /* Build configuration list for PBXNativeTarget "stotwachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F7865D1BE6E62F0039D42C /* Debug */,
+				A7F7865E1BE6E62F0039D42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F786211BE6E62E0039D42C /* Project object */;
+}
