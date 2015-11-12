@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <DCCoreDataManager.h>
 
 @interface ViewController (){
     NSTimer *stopTimer;
@@ -72,6 +73,8 @@
 }
 
 - (IBAction)onLapPressed:(id)sender {
+    
+    NSMutableDictionary *entityValues = [NSMutableDictionary dictionary];
     [stopTimer invalidate];
     stopTimer = nil;
     startDate = [NSDate date];
@@ -85,6 +88,12 @@
                                                 repeats:YES];
     [_laps addObject:lapTime];
     [_lapsTableView reloadData];
+    
+    [entityValues setObject:lapTime forKey:@"time"];
+    [entityValues setObject:startDate forKey:@"created_at"];
+    
+    [[DCCoreDataManager sharedInstance] saveEntity:@"Lap" withValues:entityValues];
+    [[DCCoreDataManager sharedInstance] saveContext];
     
 }
 

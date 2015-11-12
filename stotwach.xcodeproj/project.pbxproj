@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A712470A1BF4FEBA005DFD28 /* LapsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A71247081BF4FEBA005DFD28 /* LapsModel.xcdatamodeld */; };
 		A73BEC991BF412A6003343FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73BEC981BF412A6003343FD /* CoreData.framework */; };
 		A7F7862E1BE6E62E0039D42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7862D1BE6E62E0039D42C /* main.m */; };
 		A7F786311BE6E62E0039D42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F786301BE6E62E0039D42C /* AppDelegate.m */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0501908ADE1FE4380D9CDA0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7333B20C6A4ABEC5A87655C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71247091BF4FEBA005DFD28 /* LapsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LapsModel.xcdatamodel; sourceTree = "<group>"; };
 		A73BEC981BF412A6003343FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A7F786291BE6E62E0039D42C /* stotwach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stotwach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F7862D1BE6E62E0039D42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				A7F786331BE6E62E0039D42C /* ViewController.m */,
 				A7F786351BE6E62E0039D42C /* Main.storyboard */,
 				A7F786381BE6E62E0039D42C /* Assets.xcassets */,
+				A71247081BF4FEBA005DFD28 /* LapsModel.xcdatamodeld */,
 				A7F7863A1BE6E62E0039D42C /* LaunchScreen.storyboard */,
 				A7F7863D1BE6E62E0039D42C /* Info.plist */,
 				A7F7862C1BE6E62E0039D42C /* Supporting Files */,
@@ -356,6 +359,7 @@
 				A7F786341BE6E62E0039D42C /* ViewController.m in Sources */,
 				A7F786311BE6E62E0039D42C /* AppDelegate.m in Sources */,
 				A7F7862E1BE6E62E0039D42C /* main.m in Sources */,
+				A712470A1BF4FEBA005DFD28 /* LapsModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +608,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A71247081BF4FEBA005DFD28 /* LapsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A71247091BF4FEBA005DFD28 /* LapsModel.xcdatamodel */,
+			);
+			currentVersion = A71247091BF4FEBA005DFD28 /* LapsModel.xcdatamodel */;
+			path = LapsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7F786211BE6E62E0039D42C /* Project object */;
 }
